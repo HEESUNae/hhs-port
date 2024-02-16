@@ -36,11 +36,13 @@ export const thumbnail = {
   disney: require('../assets/image/thumbnail/thumbnail-disney.jpg'),
   apple: require('../assets/image/thumbnail/thumbnail-apple.jpg'),
   tictactoe: require('../assets/image/thumbnail/thumbnail-tictactoe.jpg'),
-  starbucks: require('../assets/image/thumbnail/thumbnail-starbucks.jpg'),
   bestDilly: require('../assets/image/thumbnail/thumbnail-bestdilly.jpeg'),
   incheonParking: require('../assets/image/thumbnail/thumbnail-incheon.png'),
   coverGirl: require('../assets/image/thumbnail/thumbnail-covergirl.jpeg'),
   sweet: require('../assets/image/thumbnail/thumbnail-sweet.jpeg'),
+  maple: require('../assets/image/thumbnail/thumbnail-maple.jpeg'),
+  starbucks: require('../assets/image/thumbnail/thumbnail-starbucks.png'),
+  green: require('../assets/image/thumbnail/thumbnail-green.svg').default,
 };
 
 export const appImage = {
