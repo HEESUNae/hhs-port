@@ -43,6 +43,7 @@ export const thumbnail = {
   maple: require('../assets/image/thumbnail/thumbnail-maple.jpeg'),
   starbucks: require('../assets/image/thumbnail/thumbnail-starbucks.png'),
   green: require('../assets/image/thumbnail/thumbnail-green.svg').default,
+  han: require('../assets/image/thumbnail/thumbnail-han.svg').default,
 };
 
 export const appImage = {

@@ -95,8 +95,8 @@ const MainPage = () => {
               <p className="title">Project</p>
               <div className="project-container">
                 <ul>
-                  {projectApi.map((item) => (
-                    <li key={item.id}>
+                  {projectApi.map((item, index) => (
+                    <li key={index}>
                       <a href={item.link} target="blank">
                         <figure className="thumbnail">
                           <img src={item.thumbnail} alt="" />

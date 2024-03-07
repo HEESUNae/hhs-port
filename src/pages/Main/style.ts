@@ -79,7 +79,7 @@ export const StyledMain = styled.div`
         }
       }
       &-carrer {
-        background-color: rgb(72 67 67 / 50%);
+        background-color: #2b2b2b;
         border-radius: 0.8rem;
         padding: 3rem;
       }
@@ -87,9 +87,10 @@ export const StyledMain = styled.div`
       &-project {
         .project-container {
           width: 100%;
-          background-color: rgb(72 67 67 / 50%);
+          background-color: #2b2b2b;
+          border-radius: 0.8rem;
           ul {
-            border: 0.1rem solid rgba(255, 255, 255, 0.1);
+            /* border: 0.1rem solid rgba(255, 255, 255, 0.1); */
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
             gap: 1.5rem;
@@ -127,8 +128,8 @@ export const StyledMain = styled.div`
       &-native {
         .native-container {
           width: 100%;
-          background-color: rgb(72 67 67 / 50%);
-          border: 0.1rem solid rgba(255, 255, 255, 0.1);
+          background-color: #2b2b2b;
+          border-radius: 0.8rem;
           .title {
             font-size: 1.6rem;
           }

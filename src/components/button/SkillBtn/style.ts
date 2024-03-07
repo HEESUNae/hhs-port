@@ -38,9 +38,7 @@ export const StyledSkillBtn = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(14.4rem, 1fr));
   gap: 1rem;
-  border: 0.1rem solid rgba(255, 255, 255, 0.1);
   border-radius: 0.4rem;
-  padding: 3rem;
   button {
     width: 100%;
     height: 6.4rem;

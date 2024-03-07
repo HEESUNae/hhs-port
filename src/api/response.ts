@@ -175,42 +175,37 @@ export const skillApi = [
 // PROJECT API
 export const projectApi = [
   {
-    id: 1,
-    link: 'https://react-maple.vercel.app/',
-    thumbnail: thumbnail.maple,
-    info: '메이플스토리 캐릭터 정보와 랭킹을 소개하는 포트폴리오 "Mapple Story"',
-    lang: ['HTML', 'CSS', 'TypeScript', 'React'],
+    link: 'https://ggl.co.kr/ko/main/main.html#anchor1',
+    thumbnail: thumbnail.green,
+    info: '(주)그린글로브라인 홈페이지 퍼블리싱한 프로젝트',
+    lang: ['HTML', 'CSS', 'JavaScript'],
   },
   {
-    id: 2,
-    link: 'https://starbucks-pink.vercel.app/',
-    thumbnail: thumbnail.starbucks,
-    info: '스타벅스 커피를 소개하는 포트폴리오',
-    lang: ['HTML', 'CSS', 'TypeScript', 'React'],
+    link: 'http://henit.co.kr/main/main.html',
+    thumbnail: thumbnail.han,
+    info: '(주)헨정보기술 홈페이지 퍼블리싱한 프로젝트',
+    lang: ['HTML', 'CSS', 'JavaScript'],
   },
   {
-    id: 3,
     link: 'https://sweet-potato.vercel.app/',
     thumbnail: thumbnail.sweet,
     info: '직접 CRUD API 기능 구현한 개인 포트폴리오 "고답"',
     lang: ['HTML', 'CSS', 'TypeScript', 'React', 'Node.js', 'MongoDB', 'Mongoose'],
   },
   {
-    id: 4,
-    link: 'https://react-cover-girl.vercel.app/',
-    thumbnail: thumbnail.coverGirl,
-    info: 'CoverGril 브랜드의 화장품 정보를 알려주는 개인 포트폴리오 "CorverGirl"',
+    link: 'https://starbucks-pink.vercel.app/',
+    thumbnail: thumbnail.starbucks,
+    info: '스타벅스 커피를 소개하는 포트폴리오',
     lang: ['HTML', 'CSS', 'TypeScript', 'React'],
   },
+
   {
-    id: 5,
     link: 'https://best-dilly.vercel.app/',
     thumbnail: thumbnail.bestDilly,
     info: '맛집 공유 플랫폼 개인 포트폴리오 "Best Dilly"',
     lang: ['HTML', 'CSS', 'TypeScript', 'React'],
   },
   // {
-  //   id: 4,
   //   link: 'https://incheon-parking.vercel.app/',
   //   thumbnail: thumbnail.incheonParking,
   //   info: '인천광역시 주차장 정보를 알 수 있는 개인 포트폴리오 "Incheon Parking"',
@@ -218,66 +213,62 @@ export const projectApi = [
   // },
 
   // {
-  //   id: 5,
   //   link: 'https://react-mongo-todo-app.vercel.app/',
   //   thumbnail: thumbnail.todoList,
   //   info: '직접 CRUD API 기능 구현한 개인 포트폴리오 "Todo List"',
   //   lang: ['HTML', 'CSS', 'TypeScript', 'React', 'Node.js', 'MongoDB', 'Mongoose'],
   // },
   // {
-  //   id: 6,
   //   link: 'https://nextjs-rabbit.vercel.app/',
   //   thumbnail: thumbnail.rabbitBlog,
   //   info: '무료 API를 활용하여 만든 개인 포트폴리오 "Support Rabbit Blog"',
   //   lang: ['HTML', 'CSS', 'TypeScript', 'Next.js'],
   // },
+
   {
-    id: 6,
-    link: 'https://heesunae.github.io/pokemon/',
-    thumbnail: thumbnail.pokemon,
-    info: '무료 포켓몬 API를 활용하여 만든 개인 포트폴리오 "Pokemon"',
-    lang: ['HTML', 'CSS', 'TypeScript', 'React'],
+    link: 'https://pokemon-book-one.vercel.app/',
+    thumbnail: thumbnail.pokemonBook,
+    info: '무료 포켓몬 API를 활용하여 만든 "Pokemon book" 클론코딩',
+    lang: ['HTML', 'TailWindCSS', 'JavaScript', 'React'],
+  },
+
+  {
+    link: 'https://heesunae.github.io/react-tictactoc/',
+    thumbnail: thumbnail.tictactoe,
+    info: '"Tic Tac Toe" 게임 클론코딩',
+    lang: ['HTML', 'CSS', 'JavaScript', 'React'],
   },
   {
-    id: 7,
-    link: 'https://ggl.co.kr/ko/main/main.html#anchor1',
-    thumbnail: thumbnail.green,
-    info: '화물운송서비스 홈페이지 퍼블리싱한 프로젝트',
-    lang: ['HTML', 'CSS', 'JavaScript'],
-  },
-  // {
-  //   id: 8,
-  //   link: 'https://pokemon-book-one.vercel.app/',
-  //   thumbnail: thumbnail.pokemonBook,
-  //   info: '무료 포켓몬 API를 활용하여 만든 "Pokemon book" 클론코딩',
-  //   lang: ['HTML', 'TailWindCSS', 'JavaScript', 'React'],
-  // },
-  {
-    id: 9,
     link: 'https://heesunae.github.io/Apple-ipad/',
     thumbnail: thumbnail.apple,
     info: '"Apple Ipad" 클론코딩',
     lang: ['HTML', 'CSS', 'JavaScript'],
   },
-
+  {
+    link: 'https://react-maple.vercel.app/',
+    thumbnail: thumbnail.maple,
+    info: '메이플스토리 캐릭터 정보와 랭킹을 소개하는 포트폴리오 "Mapple Story"',
+    lang: ['HTML', 'CSS', 'TypeScript', 'React'],
+  },
+  {
+    link: 'https://react-cover-girl.vercel.app/',
+    thumbnail: thumbnail.coverGirl,
+    info: 'CoverGril 브랜드의 화장품 정보를 알려주는 개인 포트폴리오 "CorverGirl"',
+    lang: ['HTML', 'CSS', 'TypeScript', 'React'],
+  },
+  {
+    link: 'https://heesunae.github.io/pokemon/',
+    thumbnail: thumbnail.pokemon,
+    info: '무료 포켓몬 API를 활용하여 만든 개인 포트폴리오 "Pokemon"',
+    lang: ['HTML', 'CSS', 'TypeScript', 'React'],
+  },
   // {
-  //   id: 9,
-  //   link: 'https://heesunae.github.io/react-tictactoc/',
-  //   thumbnail: thumbnail.tictactoe,
-  //   info: '"Tic Tac Toe" 게임 클론코딩',
-  //   lang: ['HTML', 'CSS', 'JavaScript', 'React'],
-  // },
-
-  // {
-  //   id: 10,
   //   link: 'https://react-disey.web.app/',
   //   thumbnail: thumbnail.disney,
   //   info: '<fastcampus> "Disney Plus"',
   //   lang: ['HTML', 'CSS', 'JavaScript', 'React'],
   // },
-
   // {
-  //   id: 12,
   //   link: 'https://heesunae.github.io/starbucks/',
   //   thumbnail: thumbnail.starbucks,
   //   info: '"Starbucks" 클론코딩',
