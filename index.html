@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="황희선 포트폴리오" />
+    <meta
+      property="og:description"
+      content="커피와 맥북만 있다면 일을 즐겁게 할 준비가 되어있는 황희선 포트폴리오 입니다."
+    />
+    <meta property="og:image" content="./assets/opengraph.jpg" />
+    <meta property="og:url" content="https://hhs-port.vercel.app/" />
+    <meta name="twitter:title" content="황희선 포트폴리오" />
+    <meta
+      name="twitter:description"
+      content="커피와 맥북만 있다면 일을 즐겁게 할 준비가 되어있는 황희선 포트폴리오 입니다."
+    />
+    <meta name="twitter:image" content="./assets/opengraph.jpg" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"
+    />
+
+    <title>황희선 포트폴리오</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <!-- header -->
+      <header>
+        <div class="inner movefont">
+          <h1><a href=".">HHS</a></h1>
+          <nav>
+            <ul>
+              <li><a href="#intro">About Me</a></li>
+              <li><a href="#carrer">Web</a></li>
+              <li><a href="#app">App</a></li>
+              <li><a href="#design">Design</a></li>
+            </ul>
+          </nav>
+          <div class="call">
+            <a href="tel:010-7139-3044">
+              <i class="xi-call"></i>
+              <span>010-7139-3044</span>
+            </a>
+          </div>
+        </div>
+      </header>
+      <main>
+        <!-- intro -->
+        <section id="intro">
+          <video muted autoplay playsinline loop src="assets/visual.mp4"></video>
+          <div class="inner">
+            <div class="greetings" data-aos="slide-up" data-aos-duration="1000">
+              <p>
+                웹디자인, 퍼블리싱, 프론트엔드 개발까지 실무 경험이 있는<br />
+                커피와 맥북만 있다면 즐겁게 일 할 준비가 되어있는 황희선 입니다.
+              </p>
+              <p class="skill">
+                PhotoShop · HTML · CSS/SCSS · JavaScript · TypeScript · React · NextJS · NodeJS · MongoDB
+              </p>
+            </div>
+            <figure data-aos="fade-in" data-aos-duration="1500">
+              <img src="./assets/hs.png" alt="" />
+            </figure>
+          </div>
+        </section>
+
+        <!-- carrer -->
+        <section id="carrer">
+          <div class="inner">
+            <p class="sec-title movefont">Project</p>
+            <p>실무에서 작업한 솔루션 · 플랫폼 · 관리자 페이지 · 홈페이지 리스트 입니다.</p>
+            <table>
+              <tr>
+                <th>AIVILL</th>
+                <td>
+                  자동차가 주행하는 동안 카메라는 도로의 표면을 실시간으로 스캔하고, 이를 3D 이미지로 변환하여 포트홀을
+                  식별하는 3D 포트홀 탐지 프로젝트입니다. 3D 툴 디자인과 퍼블리싱을 했습니다.
+                </td>
+              </tr>
+              <tr>
+                <th>트리톤</th>
+                <td>
+                  데이터를 시각화하여 사용자가 확인할 수 있게 만든 솔루션 입니다. React 환경에서의 퍼블리싱과 React
+                  TypeScript로 리팩토링 작업을 했습니다.
+                </td>
+              </tr>
+              <tr>
+                <th>라오스 ODA</th>
+                <td>
+                  LAOS 에서 도로포장 기계를 사용하는 방법을 설명해주는 도로포장 기계 사용자 가이드 홈페이지 입니다.
+                  퍼블리싱과 한국어, 영어, 라오스어로 언어변환하는 기능을 작업했습니다.
+                </td>
+              </tr>
+              <tr>
+                <th>ROAD PMS</th>
+                <td>
+                  도로 위에 포트홀을 감지하여 관리하는 도로 포트홀 관리자 페이지 입니다. 퍼블리싱과 전국
+                  도로관리사무소를 조회하고 캔버스로 도로위에 포트홀 위치를 시각화하는 작업을 했습니다.
+                </td>
+              </tr>
+              <tr>
+                <th>SRS</th>
+                <td>
+                  작업자에게 작업을 할당하고 작업자의 업무를 효율적으로 관리하는 작업자 할당 및 관리자 페이지 입니다.
+                  React 환경에서의 퍼블리싱과 공지사항, 문의게시판 페이지의 CRUD 기능의 Restful API를 연동했습니다.
+                </td>
+              </tr>
+              <tr>
+                <th>시그널트리</th>
+                <td>
+                  센서로 나무의 상태를 파악하고 이상이 있는 나무를 식별하여 사용자에게 알려주는 스마트 나무 모니터링
+                  관리자 페이지 입니다. 퍼블리싱과 캔버스로 현재 나무의 상태를 퍼센트로 시각화하고 chart.js를 활용해
+                  시간별 나무의 상태를 확인할 수 있는 작업을 했습니다.
+                </td>
+              </tr>
+              <tr>
+                <th>간이종심제 플랫폼</th>
+                <td>
+                  입찰정보 간이종심제 교육을 위한 플랫폼으로 기획의도에 맞게 UI/UX 디자인, 퍼블리싱을 하고 이벤트 팝업,
+                  배너 디자인을 하며 유지보수 작업도 했습니다.
+                </td>
+              </tr>
+            </table>
+            <ul>
+              <li
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-easing="linear"
+                data-aos-duration="500"
+              >
+                <figure>
+                  <a href="https://ggl.co.kr/ko/main/main.html#anchor1" target="_blank">
+                    <img src="./assets/project/thumbnail-green.svg" alt="" />
+                  </a>
+                  <figcaption>
+                    <strong>그린글로브라인</strong>
+                    <p>퍼블리싱</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-easing="linear"
+                data-aos-duration="700"
+              >
+                <figure>
+                  <a href="http://daewoocnm.com/" target="_blank">
+                    <img src="./assets/project/thumbnail-daewoo.svg" alt="" />
+                  </a>
+                  <figcaption>
+                    <strong>(주)대우씨엔엠</strong>
+                    <p>디자인 · 퍼블리싱</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-easing="linear"
+                data-aos-duration="900"
+              >
+                <figure>
+                  <a href="http://henit.co.kr/main/main.html" target="_blank">
+                    <img src="./assets/project/thumbnail-han.svg" alt="" />
+                  </a>
+                  <figcaption>
+                    <strong>(주)헨정보기술</strong>
+                    <p>디자인 · 퍼블리싱</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-easing="linear"
+                data-aos-duration="1100"
+              >
+                <figure>
+                  <a href="http://xn--2w2b21o1eo07b9xc.com/index.html" target="_blank">
+                    <img src="./assets/project/thumbnail-actor.svg" alt="" />
+                  </a>
+                  <figcaption>
+                    <strong>카타르시스 연기학원</strong>
+                    <p>디자인 · 퍼블리싱</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-easing="linear"
+                data-aos-duration="1300"
+              >
+                <figure>
+                  <a href="http://ggbumo.or.kr/index.html" target="_blank">
+                    <img src="./assets/project/thumbnail-parent.svg" alt="" />
+                  </a>
+                  <figcaption>
+                    <strong>경기장애인부모연대</strong>
+                    <p>디자인 · 퍼블리싱</p>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="self">
+          <div class="toy">
+            <div class="inner">
+              <p class="sec-title movefont">Toy Project</p>
+              <p>저는 업무시간 외에도 취미로 <b>디자인</b>과 <b>개발</b>하는 것을 즐겨합니다.</p>
+              <ul>
+                <li data-aos="zoom-in" data-aos-duration="1000">
+                  <figure>
+                    <div class="img-box">
+                      <a href="https://sweet-potato.vercel.app/" target="_blank">
+                        <img src="./assets/toy/thumbnail-sweet.jpeg" alt="" />
+                      </a>
+                    </div>
+                    <figcaption>
+                      <strong>고답</strong>
+                      <p>디자인 · 퍼블리싱 · 프론트 · 백엔드</p>
+                      <p>HTML · CSS · React · TypeScript · NodeJS · MongoDB</p>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li data-aos="zoom-in" data-aos-duration="1000">
+                  <figure>
+                    <div class="img-box">
+                      <a href="https://best-dilly.vercel.app/" target="_blank">
+                        <img src="./assets/toy/thumbnail-bestdilly.jpeg" alt="" />
+                      </a>
+                    </div>
+                    <figcaption>
+                      <strong>베스트딜리</strong>
+                      <p>디자인 · 퍼블리싱 · 프론트</p>
+                      <p>HTML · CSS · React · TypeScript</p>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li data-aos="zoom-in" data-aos-duration="1000">
+                  <figure>
+                    <div class="img-box">
+                      <a href="https://heesunae.github.io/pokemon/" target="_blank">
+                        <img src="./assets/toy/thumbnail-pokemon.webp" alt="" />
+                      </a>
+                    </div>
+                    <figcaption>
+                      <strong>포켓몬</strong>
+                      <p>디자인 · 퍼블리싱 · 프론트</p>
+                      <p>HTML · CSS · React · TypeScript</p>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li data-aos="zoom-in" data-aos-duration="1000">
+                  <div class="img-box">
+                    <a href="https://react-maple.vercel.app/" target="_blank">
+                      <img src="./assets/toy/thumbnail-maple.jpeg" alt="" />
+                    </a>
+                  </div>
+                  <figcaption>
+                    <strong>메이플스토리</strong>
+                    <p>디자인 · 퍼블리싱 · 프론트</p>
+                    <p>HTML · CSS · React · TypeScript</p>
+                  </figcaption>
+                </li>
+                <li data-aos="zoom-in" data-aos-duration="1000">
+                  <div class="img-box">
+                    <a href="https://react-cover-girl.vercel.app/" target="_blank">
+                      <img src="./assets/toy/thumbnail-covergirl.jpeg" alt="" />
+                    </a>
+                  </div>
+                  <figcaption>
+                    <strong>CoverGirl</strong>
+                    <p>디자인 · 퍼블리싱 · 프론트</p>
+                    <p>HTML · CSS · React · TypeScript</p>
+                  </figcaption>
+                </li>
+                <li data-aos="zoom-in" data-aos-duration="1000">
+                  <figure>
+                    <div class="img-box">
+                      <a href="https://starbucks-pink.vercel.app/" target="_blank">
+                        <img src="./assets/toy/thumbnail-starbucks.png" alt="" />
+                      </a>
+                    </div>
+                    <figcaption>
+                      <strong>스타벅스</strong>
+                      <p>디자인 · 퍼블리싱</p>
+                      <p>HTML · CSS · JavaScript</p>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- 어플 -->
+          <div class="app" id="app">
+            <div class="inner">
+              <p class="sec-title movefont">App</p>
+              <p>어플에도 관심이 있어 React Native로 <b>어플 퍼블리싱</b>한 이미지 입니다.</p>
+              <ul>
+                <li
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-easing="linear"
+                  data-aos-duration="500"
+                >
+                  <figure>
+                    <div class="img-box">
+                      <img src="./assets/app/app-kakao.png" alt="" />
+                      <div class="link">
+                        <a href="https://github.com/HEESUNae/ReactNative-Kakao" target="_blank"
+                          ><i class="xi-github"></i> Github 코드보기</a
+                        >
+                      </div>
+                    </div>
+                  </figure>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-easing="linear"
+                  data-aos-duration="700"
+                >
+                  <figure>
+                    <div class="img-box">
+                      <img src="./assets/app/app-bus.png" alt="" />
+                      <div class="link">
+                        <a href="https://github.com/HEESUNae/ReactNative-KakaoBus" target="_blank"
+                          ><i class="xi-github"></i> Github 코드보기</a
+                        >
+                      </div>
+                    </div>
+                  </figure>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-easing="linear"
+                  data-aos-duration="800"
+                >
+                  <figure>
+                    <div class="img-box">
+                      <img src="./assets/app/app-translate.png" alt="" />
+                      <div class="link">
+                        <a href="https://github.com/HEESUNae/ReactNative-Translation" target="_blank"
+                          ><i class="xi-github"></i> Github 코드보기</a
+                        >
+                      </div>
+                    </div>
+                  </figure>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-easing="linear"
+                  data-aos-duration="900"
+                >
+                  <figure>
+                    <div class="img-box">
+                      <img src="./assets/app/app-wallpaper.png" alt="" />
+                      <div class="link">
+                        <a href="https://github.com/HEESUNae/ReactNative-WallPaper" target="_blank"
+                          ><i class="xi-github"></i> Github 코드보기</a
+                        >
+                      </div>
+                    </div>
+                  </figure>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000"
+                >
+                  <figure>
+                    <div class="img-box">
+                      <img src="./assets/app/app-gallery.png" alt="" />
+                      <div class="link">
+                        <a href="https://github.com/HEESUNae/ReactNative-Gallery" target="_blank"
+                          ><i class="xi-github"></i> Github 코드보기</a
+                        >
+                      </div>
+                    </div>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- 디자인 -->
+          <div class="design" id="design">
+            <div class="inner">
+              <p class="sec-title movefont">design</p>
+              <p>취미로 무료 이미지로 만들어 본 <b>상세페이지</b> 이미지 입니다.</p>
+              <ul>
+                <li
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-easing="linear"
+                  data-aos-duration="500"
+                >
+                  <figure>
+                    <img src="./assets/design/design-poteto.png" alt="" />
+                  </figure>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-easing="linear"
+                  data-aos-duration="700"
+                >
+                  <figure>
+                    <img src="./assets/design/design-msm.jpg" alt="" />
+                  </figure>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-easing="linear"
+                  data-aos-duration="800"
+                >
+                  <figure>
+                    <img src="./assets/design/design-air.png" alt="" />
+                  </figure>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-easing="linear"
+                  data-aos-duration="900"
+                >
+                  <figure>
+                    <img src="./assets/design/design-abalone.png" alt="" />
+                  </figure>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000"
+                >
+                  <figure>
+                    <img src="./assets/design/design-shrimp.png" alt="" />
+                  </figure>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="inner">hwang hee sun porfolio © 2024 All rights reserved</div>
+      </footer>
+    </div>
+  </body>
+</html>
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
