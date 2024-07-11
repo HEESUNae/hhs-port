@@ -9,7 +9,7 @@ window.addEventListener('scroll', () => {
 });
 
 // 헤더 네비게이션 이동 이벤트
-document.querySelectorAll('nav a').forEach((nav) => {
+document.querySelectorAll('nav .scroll-view').forEach((nav) => {
   nav.addEventListener('click', (e) => {
     e.preventDefault();
     document.querySelector(e.target.hash).scrollIntoView({
