@@ -225,7 +225,6 @@ header .call span {
   max-width: 20rem;
   border-radius: 1rem;
   overflow: hidden;
-  margin-bottom: 2rem;
 }
 .toy a {
   margin-top: 1.6rem;
@@ -309,6 +308,9 @@ footer .inner {
   .app .img-box {
     height: auto;
   }
+  .toy ul {
+    grid-template-columns: 1fr;
+  }
 }
 @media (max-width: 992px) {
   html {
@@ -328,5 +330,8 @@ footer .inner {
   }
   #carrer table td {
     padding-left: 0;
+  }
+  .toy figure {
+    flex-direction: column;
   }
 }
